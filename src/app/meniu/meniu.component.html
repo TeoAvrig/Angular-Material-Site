@@ -1,0 +1,19 @@
+<div class="meniu">
+  <div class="meniu-filter">
+    <div class="meniu-logo">
+      <ul>
+        <li><img alt="." class="meniu-logo-image" src="assets/resurse/vuetify.png"></li>
+        <li><p class="meniu-logo-content"><strong>Vuetify MD</strong></p></li>
+      </ul>
+    </div>
+
+    <mat-selection-list #meniu [multiple]="false" class="meniu-list">
+      <mat-list-option *ngFor="let item of menu" class="meniu-list-item">
+        <ul>
+          <li><img [src]="'assets/resurse/'+item.img" alt="." class="meniu-list-item-logo"></li>
+          <li><p class="meniu-list-item-content">{{item.content}}</p></li>
+        </ul>
+      </mat-list-option>
+    </mat-selection-list>
+  </div>
+</div>

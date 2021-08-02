@@ -1,0 +1,21 @@
+<div class="section">
+  <mat-card *ngFor="let item of cardinfo" class="section-component">
+    <img [src]="'assets/resurse/'+item.img" alt="." class="section-component-image" mat-card-image>
+    <mat-card-content class="section-component-contect">
+      <mat-card-title>{{item.title}}</mat-card-title>
+      <mat-card-subtitle>{{item.subtitle}}</mat-card-subtitle>
+    </mat-card-content>
+    <mat-card-subtitle class="section-component-footer">{{item.footerText}}</mat-card-subtitle>
+  </mat-card>
+</div>
+
+<div class="section-mini">
+  <mat-card *ngFor="let item of cardinfoMini" class="section-mini-component">
+    <img [src]="'assets/resurse/'+item.img" alt="." class="section-mini-component-image" mat-card-image>
+    <mat-card-content class="section-mini-component-contect">
+      <mat-card-subtitle>{{item.title}}</mat-card-subtitle>
+      <mat-card-title>{{item.subtitle}}</mat-card-title>
+    </mat-card-content>
+    <mat-card-subtitle class="section-mini-component-footer">{{item.footerText}}</mat-card-subtitle>
+  </mat-card>
+</div>

@@ -1,0 +1,146 @@
+.section-table {
+  margin-top: 50px;
+  width: 100%;
+  height: 550px;
+}
+
+.section-table-component {
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  width: 45%;
+  height: 90%;
+  background-color: antiquewhite;
+}
+
+.text {
+  height: 30px;
+  width: 300px;
+  padding-top: 25px;
+  margin-left: 30px;
+}
+
+table {
+  width: 100%;
+  background-color: antiquewhite;
+  box-shadow: 0 0 0 0 black;
+}
+
+.table-item {
+  height: 60px;
+  padding-top: 20px;
+}
+
+.table-item td:hover {
+  background-color: darkslategray !important;
+  opacity: 0.5;
+}
+
+.section-table-component-top {
+  width: 99%;
+  height: 20%;
+  background-color: rgb(237, 121, 38);
+  margin-top: -40px !important;
+  border-radius: 8px;
+}
+
+.lista {
+  margin-top: 60px;
+  width: 100%;
+  height: 60%;
+}
+
+.lista-item {
+  margin-top: 30px;
+  width: 90%;
+}
+
+.tabel {
+  width: 90%;
+  height: 80%;
+  padding-top: 20px;
+  margin: 30px 0 0 25px;
+}
+
+.up {
+  height: 20%;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+.up-id {
+  height: 100%;
+  width: 10%;
+  float: left;
+  text-align: center;
+}
+
+.up-name {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.up-name p {
+  float: left;
+}
+
+.up-salary {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.up-salary p {
+  float: right;
+}
+
+.up-country {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.up-country p {
+  float: right;
+}
+
+.up-city {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.up-city p {
+  float: right;
+}
+
+.interior {
+  height: 15% !important;
+}
+
+.interior:hover {
+  background-color: darkcyan;
+  opacity: 0.5;
+}
+
+.dreapta {
+  background-color: rgb(10, 201, 119) !important;
+}
+
+.top-intro {
+  margin-top: 40px;
+  float: left;
+}
+
+.top-tabs {
+  margin-top: 25px;
+  float: left;
+  width: 90%;
+}
+

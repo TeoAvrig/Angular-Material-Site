@@ -1,0 +1,47 @@
+<div class="section-table" xmlns="http://www.w3.org/1999/html">
+  <mat-card class="section-table-component">
+    <div class="section-table-component-top">
+      <div class="text">
+        <mat-card-title class="top-stanga-title">Employees Stats</mat-card-title>
+        <mat-card-subtitle>New employees on 15th September, 2016</mat-card-subtitle>
+      </div>
+    </div>
+    <mat-card-content class="section-table-component-contect">
+      <div class="tabel">
+        <div class="up">
+          <div class="up-id"><p>ID</p></div>
+          <div class="up-name"><p>NAME</p></div>
+          <div class="up-salary"><p>SALARY</p></div>
+          <div class="up-country"><p>COUNTRY</p></div>
+          <div class="up-city"><p>CITY</p></div>
+        </div>
+        <div *ngFor="let item of dataSource" class="up interior">
+          <div class="up-id"><p>{{item.id}}</p></div>
+          <div class="up-name"><p>{{item.name}}</p></div>
+          <div class="up-salary"><p>{{item.salary}}</p></div>
+          <div class="up-country"><p>{{item.country}}</p></div>
+          <div class="up-city"><p>{{item.city}}</p></div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="section-table-component">
+    <div class="section-table-component-top dreapta">
+      <p class="top-intro">Tasks: </p>
+      <mat-tab-group class="top-tabs">
+        <mat-tab class="tabs-element" label="Bugs"></mat-tab>
+        <mat-tab class="tabs-element" label="Website"></mat-tab>
+        <mat-tab class="tabs-element" label="Server"></mat-tab>
+      </mat-tab-group>
+    </div>
+    <mat-card-content class="section-table-component-contect">
+      <mat-list class="lista" role="list">
+        <mat-list-item *ngFor="let item of dataInfo" class="lista-item" role="listitem">
+          <mat-checkbox (click)="reverse(item.isCheck)" [(ngModel)]="item.isCheck"
+                        class="example-margin">{{item.text}}</mat-checkbox>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+</div>

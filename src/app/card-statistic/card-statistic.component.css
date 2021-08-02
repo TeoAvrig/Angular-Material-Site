@@ -1,0 +1,74 @@
+.section {
+  margin-top: 30px;
+  width: 100%;
+  height: 360px;
+}
+
+.section-component {
+  width: 28%;
+  height: 85%;
+  margin-left: 30px;
+  background-color: wheat;
+  float: left;
+  margin-top: 20px;
+}
+
+.section-component-image {
+  width: 98%;
+  height: 60%;
+  border-radius: 15px 15px 10px 10px!important;
+  margin: auto;
+  margin-top: -35px !important;
+}
+
+.section-component-contect {
+  margin-top: 15px;
+  padding-bottom: 50px;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.section-component-footer {
+  padding-top: 15px;
+}
+
+.section-mini {
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+}
+
+.section-mini-component {
+  width: 20%;
+  height: 70%;
+  margin-left: 25px;
+  background-color: wheat;
+  float: left;
+  margin-top: 20px;
+}
+
+.section-mini-component-image {
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: -35px !important;
+}
+
+.section-mini-component-contect {
+  float: right;
+  width: 50%;
+}
+
+.section-mini-component-footer {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  padding-top: 28px;
+
+  bottom: 0;
+  width: 100%;
+}

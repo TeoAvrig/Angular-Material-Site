@@ -1,0 +1,71 @@
+.header {
+  height: 70px;
+  width: 100%;
+}
+
+.header-meniu {
+  float: left;
+  height: 100%;
+  width: 15%;
+  margin-left: -12px;
+}
+
+.header-meniu-icon {
+  float: left;
+  margin-top: 15px;
+  margin-left: 12px;
+  background-color: white;
+}
+
+.header-meniu-content {
+  float: right;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.header-spacer {
+  height: 100%;
+  width: 54%;
+  float: left;
+}
+
+.header-search {
+  width: 150px;
+  height: 100%;
+  float: right;
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+
+.header-search-bar {
+  float: left;
+  width: 65%;
+  height: 70%;
+}
+
+.header-search-bar-title {
+  font-size: 15px;
+}
+
+.header-search-icon {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.header-search-icon-content {
+  margin-bottom: 7px;
+}
+
+.header-user {
+  height: 100%;
+  width: 220px;
+  margin-left: 30px;
+  float: right;
+}
+
+.header-user-info {
+  margin: 10px auto auto 20px;
+}

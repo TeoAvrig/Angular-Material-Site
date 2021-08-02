@@ -1,0 +1,12 @@
+.container {
+  width: 82vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  float: right;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+section {
+  padding-bottom: 60px;
+}

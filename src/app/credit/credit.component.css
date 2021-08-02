@@ -1,0 +1,33 @@
+.footer {
+  bottom: 0;
+  width: 82vw;
+  height: 60px;
+}
+
+.footer-credit {
+  float: left;
+  height: 100%;
+}
+
+.footer-credit-info {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 100px;
+  border-radius: 15px !important;
+}
+
+.footer-spacer {
+  float: left;
+  height: 100%;
+  width: 400px;
+}
+
+.footer-multumiri {
+  float: left;
+  height: 100%;
+}
+
+.footer-multumiri p {
+  font-size: 15px;
+}
